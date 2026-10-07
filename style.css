@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 1000px;
+    background: url(./images/tokyo.jpg) center/cover no-repeat;
+    backdrop-filter: blur(2px);
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 900px;
+    height: 600px;
+    border-radius: 30px;
+    background-color: white;
+    justify-content: space-between;
+}
+
+.form-image {
+    background: url(./images/tokyo.jpg) center/cover no-repeat;
+    width: 55%;
+    height: 100%;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.form-section {
+    width: 45%;
+    height: 100%;
+}
+
+.form-cont {
+    width: 80%;
+    height: 90%;
+    margin-top: 30px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.title {
+    color: #02363a;
+    font-weight: 600;
+    font-size: 26px;
+    margin-bottom: 10px ;
+}
+
+.text {
+    color: #383D3C;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.config {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    font-size: 14px;
+    color: #383D3C;
+}
+
+.int {
+    width: 310px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    border: 1px transparent solid;
+}
+
+.policy {
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    gap: 3px;
+}
+
+.policy span {
+    color: goldenrod;
+}
+
+.submit {
+    width: 310px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+}
